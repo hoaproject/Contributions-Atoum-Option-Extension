@@ -79,7 +79,7 @@ class Extension implements atoum\extension
 
 		$test->getAssertionManager()
 			->setHandler(
-				'hoaOption',
+				'option',
 				function($option) use ($test, & $asserter)
 				{
 					if ($asserter === null)

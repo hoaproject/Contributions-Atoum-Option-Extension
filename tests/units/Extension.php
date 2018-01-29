@@ -56,7 +56,7 @@ class Extension extends atoum\test
 						->isTestedInstance
 					->mock($manager)
 						->call('setHandler')
-							->withArguments('hoaOption')
+							->withArguments('option')
 								->once()
 		;
 	}

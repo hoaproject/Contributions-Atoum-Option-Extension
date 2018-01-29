@@ -59,20 +59,20 @@ For more information, please read the [contributor guide](https://hoa-project.ne
 <?php
 
 $this->given($this->newTestedInstance)
-	->hoaOption($this->testedInstance->doSomethingReturningAnOption())
+	->option($this->testedInstance->doSomethingReturningAnOption())
 		->isNone;
 $this->given($this->newTestedInstance)
-	->hoaOption($this->testedInstance->doSomethingReturningAnOption())
+	->option($this->testedInstance->doSomethingReturningAnOption())
 		->isSome('This should be a value');
 $this->given($this->newTestedInstance)
-	->hoaOption($this->testedInstance->wrapTheGivenValueInAnOption(42))
+	->option($this->testedInstance->wrapTheGivenValueInAnOption(42))
 		->some()
 		->integer($this->getValue())->isEqualTo(42);
 ```
 
 ### New assertion defined
 
-* hoaOption: validated that the given value is an Option instance
+* option: validated that the given value is an Option instance
   * isSome('custom failed message') or isSome: validated that the Option contains a value
   * isNone('custom failed message') or isNone: validated that the Option doesn't contains a value
   * some() or some: allow you to get the unwrapped value to chain on, validated that the value is in the option first
