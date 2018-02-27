@@ -10,6 +10,10 @@ matrix:
       env:
         - ENABLE_DEVTOOLS=true
         - COMPOSER_PREFER="--prefer-lowest"
+    - php: 7.2
+      env:
+        - ENABLE_DEVTOOLS=true
+        - COMPOSER_PREFER="--prefer-lowest"
     - php: nightly
       env:
         - COMPOSER_PREFER="--prefer-lowest"

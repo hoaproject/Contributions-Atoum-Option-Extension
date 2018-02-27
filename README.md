@@ -20,7 +20,6 @@
 
 [![Help on IRC](https://img.shields.io/badge/help-%23hoaproject-ff0066.svg)](https://webchat.freenode.net/?channels=#hoaproject)
 [![Help on Gitter](https://img.shields.io/badge/help-gitter-ff0066.svg)](https://gitter.im/hoaproject/central)
-[![Documentation](https://img.shields.io/badge/documentation-hack_book-ff0066.svg)](https://central.hoa-project.net/Documentation/Library/atoum-option-extension)
 [![Board](https://img.shields.io/badge/organisation-board-ff0066.svg)](https://waffle.io/hoaproject/atoum-option-extension)
 
 This tools is an extension for [atoum](http://atoum.org) to help you creating your unit test for a project using [hoa/Option](https://central.hoa-project.net/Documentation/Library/Option)
@@ -76,14 +75,6 @@ $this->given($this->newTestedInstance)
   * isSome('custom failed message') or isSome: validated that the Option contains a value
   * isNone('custom failed message') or isNone: validated that the Option doesn't contains a value
   * some() or some: allow you to get the unwrapped value to chain on, validated that the value is in the option first
-
-## Documentation
-
-The [hack book of `Hoa\atoum-option-extension`](https://central.hoa-project.net/Documentation/Library/atoum-option-extension) contains
-detailed information about how to use this library and how it works.
-
-More documentation can be found on the project's website:
-[hoa-project.net](https://hoa-project.net/).
 
 ## Getting help
 

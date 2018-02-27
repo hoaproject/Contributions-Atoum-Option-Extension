@@ -1,5 +1,5 @@
 {
-    "name": "hoa/atoum-opton-extension",
+    "name": "hoa/atoum-option-extension",
     "description": "Extension for Hoa\\Option to be used in unit test with atoum",
     "type": "library",
     "keywords"   : ["library", "option", "maybe", "unit testing", "atoum-extension"],
@@ -10,7 +10,7 @@
     },
     "require": {
         "php": ">=7.1",
-		"atoum/atoum": "~3.2",
+        "atoum/atoum": "~3.2",
         "hoa/option": "~1.17.08"
     },
     "require-dev": {
@@ -30,6 +30,6 @@
         "psr-4": {
             "Hoa\\atoum\\Option\\": "src"
         },
-		"files": ["resources/atoum-auto-configuration.php"]
-	}
+        "files": ["resources/atoum-auto-configuration.php"]
+    }
 }
